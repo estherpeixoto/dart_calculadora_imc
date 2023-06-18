@@ -11,5 +11,5 @@ void execute() {
   Pessoa pessoa = Pessoa(nome, peso, altura);
 
   CalculadoraImc calculadora = CalculadoraImc();
-  calculadora.calcular(pessoa);
+  calculadora.resultado(pessoa);
 }
